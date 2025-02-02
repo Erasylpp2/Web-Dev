@@ -1,0 +1,125 @@
+.im{
+    position: absolute;
+    top:140px;
+    left:685px;
+}
+.img{
+    position: absolute;
+    top:114px;
+    left:528px;
+}
+.box1{
+    position:absolute;
+    top: 114px;;
+    right:580px;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box input{
+    width: 300px;
+    height: 40px;
+}
+.box2{
+    position:absolute;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    top:550px;
+    right: 580px;
+    width: 320px;
+    padding: 10px;
+    text-align: center;
+}
+.qwer{
+    position:absolute;
+    top:620px;
+    right: 660px;
+}
+.insta {
+        font-family: "Pacifico", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+.login{
+    border:none;
+    font-weight: bold;
+    padding:12px;
+    border-radius: 5px;
+    background-color: rgb(72, 100, 243);
+    color:white
+}
+.line{
+    flex:1px;
+    height:1px;
+    background-color: #ddd;
+}
+.separator span {
+    margin: 0 10px;
+    color: #999;
+    font-size: 14px;
+}
+.forgot{
+    color:white;
+}
+.voyti{
+    padding: 6px 0;
+    padding-bottom: 1px;
+    margin-top:20px;
+    font-size: 14px;
+}
+.voity a{
+    text-decoration: none;
+}
+footer {
+    position:absolute;
+    top:790px;
+    left: 375px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #737373;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.pic{
+    Position:absolute;
+    top:680px;
+    right: 750px;
+    border: 0px;
+    width: 100px;
+    height:40px;
+}
+.pic1{
+    Position:absolute;
+    top:680px;
+    right: 640px;
+    border: 0px;
+    width: 100px;
+    height:40px;
+}
+.b12{
+    position:absolute;
+    top: 431px;
+    right: 826px;
+}
