@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.color-box {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.error {
+    color: aliceblue;
+    font-size: 24px;
+    position: absolute;
+    left: 50px;
+}
+
+.h {
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 500px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    width: 400px;
+}
+
+#ToDoLi {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add {
+    padding: 8px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: auto;
+}
+
+li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.task-checkbox {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.task-text {
+    flex-grow: 1;
+}
+
+li.checked .task-text {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.close {
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    font-size: 14px;
+}
