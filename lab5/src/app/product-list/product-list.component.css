@@ -1,0 +1,18 @@
+.like{
+    background-color: rgb(255,105,180);
+    position: relative;
+    top: 41px;
+  }
+  .likes{
+    display: inline-block;
+    border-width: 0px;
+  }
+  .likee{
+    position: relative;
+    left: 60px;
+  }
+  .delete{
+    position: relative;
+    left: 35px;
+  }
+ 
