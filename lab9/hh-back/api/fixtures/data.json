@@ -1,0 +1,127 @@
+[
+    {
+        "model": "api.company",
+        "id": 1,
+        "fields": {
+            "name": "Google"
+        }
+    },
+    {
+        "model": "api.company",
+        "id": 2,
+        "fields": {
+            "name": "Amazon"
+        }
+    },
+    {
+        "model": "api.company",
+        "id": 3,
+        "fields": {
+            "name": "Microsoft"
+        }
+    },
+    {
+        "model": "api.company",
+        "id": 4,
+        "fields": {
+            "name": "Apple"
+        }
+    },
+    {
+        "model": "api.company",
+        "id": 5,
+        "fields": {
+            "name": "Meta"
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "id": 1,
+        "fields": {
+            "name": "Software Engineer",
+            "company": 1,
+            "salary": 150000
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "id": 2,
+        "fields": {
+            "name": "Backend Developer",
+            "company": 2,
+            "salary": 130000
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "id": 3,
+        "fields": {
+            "name": "Frontend Developer",
+            "company": 1,
+            "salary": 140000
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "id": 4,
+        "fields": {
+            "name": "Data Scientist",
+            "company": 3,
+            "salary": 160000
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "id": 5,
+        "fields": {
+            "name": "DevOps Engineer",
+            "company": 4,
+            "salary": 145000
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "id": 6,
+        "fields": {
+            "name": "Product Manager",
+            "company": 5,
+            "salary": 155000
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "id": 7,
+        "fields": {
+            "name": "AI Researcher",
+            "company": 1,
+            "salary": 170000
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "id": 8,
+        "fields": {
+            "name": "Cybersecurity Analyst",
+            "company": 2,
+            "salary": 135000
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "id": 9,
+        "fields": {
+            "name": "Cloud Engineer",
+            "company": 3,
+            "salary": 140000
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "id": 10,
+        "fields": {
+            "name": "UX Designer",
+            "company": 4,
+            "salary": 125000
+        }
+    }
+]
