@@ -1,0 +1,45 @@
+/* company-list.component.css */
+
+:host {
+    display: block;
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    color: #333;
+  }
+  
+  h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  li:hover {
+    background-color: #dfe6e9;
+  }
+  
+  li.selected {
+    background-color: #74b9ff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  div {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+  }
+  
